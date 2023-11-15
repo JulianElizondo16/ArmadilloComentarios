@@ -29,6 +29,9 @@ class ComentariosServiceProvider extends ServiceProvider
         $this->publishes([
             __DIR__.'/views/vistasPrincipales' => resource_path('views/vistasPrincipales'),
         ], 'VistasComentarios');
+        $this->publishes([
+            __DIR__.'/resources/views/livewire' => resource_path('views/livewire'),
+        ], 'navigation');
         /* Llamada de controladores */
         $this->publishes([
             __DIR__.'/Controllers' => app_path('/Http/Controllers'),
