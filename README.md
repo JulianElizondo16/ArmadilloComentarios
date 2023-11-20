@@ -53,6 +53,8 @@ Luego de eso tenemos que ir a nuestro archivo **composer.json** en el paquete pr
 vamos al apartado de **autoload**, aca lo que vamos a hacer es que cargue lo que son los
 datos de esos archivos, en este caso todos los archivos de ese paquete instalado.
 
+`"julianelizondo16\\armadillocomentarios\\": "vendor/julianelizondo16/armadillocomentarios/src",`
+
 ![](https://i.ibb.co/3FryTm7/image.png)
 
 ## Vamos a agregar las rutas necesarias para que los controladores funcionen.'
