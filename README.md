@@ -10,11 +10,11 @@
 ## 2. Nos dirigimos a la ruta
 
 **resources/views/livewire**
-y vamos a tener que eliminar nuestro archivo de navigation.
+y vamos a tener que eliminar nuestro archivo de **navigation**.
 
 ## 3. Cambiar la ruta que reconozca Livewire
 
-Vamos a **resources/views/layouts/app.blade.php** hacemos el cambio en @livewire (a navigation.)
+Vamos a **resources/views/layouts/app.blade.php** hacemos el cambio en **@livewire** (a **navigation**.)
 ![](https://i.ibb.co/hLGFKYH/image.png)
 
 Ahora vamos a **app/Providers/RouteServiceProvider.php** Y hacemos el siguiente cambio.
