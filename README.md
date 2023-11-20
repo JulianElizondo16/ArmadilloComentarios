@@ -24,11 +24,13 @@ Ahora vamos a **app/Providers/RouteServiceProvider.php** Y hacemos el siguiente 
 ## 5. Seguido vamos al archivo _composer.json_
 
 Vamos al composer.json y cambiamos lo vamos a poner en **dev**.
+
 ![](https://i.ibb.co/YZWbrz9/Captura-de-pantalla-2023-11-20-094439.png)
 
 ## 6. Cambiamos nuestro **.env**
 
 Vamos a .env y ponemos el nombre de la base de datos.
+
 ![](https://i.ibb.co/31yMX7z/image.png)
 
 ## 7. Ingresamos el siguiente comando de composer:
@@ -42,12 +44,15 @@ usando) e ingresamos al archivo **app.php** Y dentro del archivo vamos a bajar h
 array de **“providers”**
 
 Vamos a agregar nuestro provider de ultimo.
+
 ` julianelizondo\armadillocomentarios\ComentariosServiceProvider::class`
+
 ![](https://i.ibb.co/stxFgdY/image.png)
 
 Luego de eso tenemos que ir a nuestro archivo **composer.json** en el paquete principal. Y
 vamos al apartado de **autoload**, aca lo que vamos a hacer es que cargue lo que son los
 datos de esos archivos, en este caso todos los archivos de ese paquete instalado.
+
 ![](https://i.ibb.co/3FryTm7/image.png)
 
 ## Vamos a agregar las rutas necesarias para que los controladores funcionen.'
