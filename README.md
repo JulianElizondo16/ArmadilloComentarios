@@ -45,7 +45,7 @@ array de **“providers”**
 
 Vamos a agregar nuestro provider de ultimo.
 
-` julianelizondo\armadillocomentarios\ComentariosServiceProvider::class`
+` julianelizondo\armadillocomentarios\ComentariosServiceProvider::class,`
 
 ![](https://i.ibb.co/stxFgdY/image.png)
 
